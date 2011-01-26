@@ -1,18 +1,27 @@
 !!! Strict
 
--# Sequence Mediaworks default StaticMatic site template
+- default_page_title = 'Default Page Title'                 # Change me
+- shortcut_icon = '#'                                       # Change me
+- seo_keywords = [:html, :css, :staticmatic, :jquery]       # Change me
+- seo_description = 'A default SEO description you should change, recommended to be 150 characters or less long'
 
 %html
   %head
     -# Use StaticMatic as the default unless you override it.
-    %title= @page_title.to_s.strip == '' ? 'StaticMatic' : @page_title
+    %title= @page_title.to_s.strip == '' ? default_page_title : @page_title
+    
+    -# SEO things
+    %meta{:name => 'keywords', :content => seo_keywords.map {|kw| kw.to_s.downcase.gsub('_', ' ')}.join(',')}
+    %meta{:name => 'description', :content => seo_description}
 
     -# Use a specific order that uses relative paths instead of the absolute path that stylesheets() generates.
     %link{:rel => 'stylesheet', :type => 'text/css', :href => 'stylesheets/base.css'}
-  %body
+    
+    -# favicon
+    %link{:rel => 'shortcut icon', :href => shortcut_icon}
+  %body{:class => @body_class}
     .container_12
       = partial 'header', :locals => {}
       = yield
       = partial 'footer', :locals => {}
       = partial 'javascripts'
-      

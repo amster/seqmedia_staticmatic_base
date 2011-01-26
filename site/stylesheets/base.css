@@ -414,21 +414,20 @@ table {
   margin: 80px 0px 40px;
 }
 
-/* Boilerplate stuff */
-/* line 11 */
+/* line 10 */
 body {
   font-family: "Lucida Sans", Lucida, Helvetica, Tahoma, Arial, sans-serif;
   font-size: 90%;
 }
-/* line 16 */
+/* line 15 */
 body a:link, body a:visited {
   color: blue;
 }
-/* line 20 */
+/* line 19 */
 body a:hover {
   color: #2299ff;
 }
-/* line 25 */
+/* line 24 */
 body h1, body h2, body h3, body h4, body h5, body h6, body h7, body p {
   margin-bottom: 1em;
 }

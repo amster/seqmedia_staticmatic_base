@@ -1,4 +1,4 @@
-- jses = ['lib/jquery-1.4.4.js', 'lib/jquery-ui-1.8.8.js']
+- jses = ['lib/jquery-1.4.4.js', 'lib/jquery-ui-1.8.8.js']  # Change me
 - jses += @page_javascripts.to_a if @page_javascripts
 - jses.each do |js|
   %script{:type => 'text/javascript', :src => "javascripts/#{js}"}

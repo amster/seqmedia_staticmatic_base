@@ -1,4 +1,8 @@
 .footer
   .grid_12
-    == Copyright #{Date.today.year} by SoAndSo
+    - starting_year = 2011                                  # Change me
+    - copyright_by = 'SoAndSo'                              # Change me
+    
+    -# Print out the starting year to current year, unless we're in the same year.
+    == Copyright #{Date.today.year == starting_year ? starting_year : "#{starting_year} - #{Date.today.year}"} by #{copyright_by}
   .clear
