@@ -1,0 +1,18 @@
+!!! Strict
+
+-# Sequence Mediaworks default StaticMatic site template
+
+%html
+  %head
+    -# Use StaticMatic as the default unless you override it.
+    %title= @page_title.to_s.strip == '' ? 'StaticMatic' : @page_title
+
+    -# Use a specific order that uses relative paths instead of the absolute path that stylesheets() generates.
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => 'stylesheets/base.css'}
+  %body
+    .container_12
+      = partial 'header', :locals => {}
+      = yield
+      = partial 'footer', :locals => {}
+      = partial 'javascripts'
+      

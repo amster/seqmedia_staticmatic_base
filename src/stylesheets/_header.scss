@@ -1,0 +1,31 @@
+@import "globals.scss";
+@import "functions.scss";
+
+.header {
+  background: $header_background;
+  padding: 10px 0px;
+  margin: 10px 0px 20px;
+  color: $header_color;
+  font-size: $header_font_size;
+  @include border_radius(5px);
+  
+  .logo {
+    float: left;
+  }
+  
+  .nav {
+    float: right;
+    
+    a {
+      &:link, &:visited {
+        color: $header_link_color;
+        text-decoration: none;
+        margin-left: $header_link_spacing;
+      }
+
+      &:hover {
+        color: $header_link_hover_color;
+      }
+    }
+  }
+}

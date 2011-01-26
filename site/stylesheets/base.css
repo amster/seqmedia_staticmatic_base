@@ -1,0 +1,434 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* Converted from CSS to Sass SCSS */
+/* See also: http://960.gs, http://sass-lang.com/ */
+/* line 7, ./src/stylesheets/./_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 16, ./src/stylesheets/./_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 19, ./src/stylesheets/./_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 22, ./src/stylesheets/./_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 26, ./src/stylesheets/./_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 31, ./src/stylesheets/./_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 35, ./src/stylesheets/./_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 38, ./src/stylesheets/./_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 41, ./src/stylesheets/./_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 44, ./src/stylesheets/./_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+/* Converted from CSS to Sass SCSS */
+/* See also: http://960.gs, http://sass-lang.com/ */
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+/* line 15, ./src/stylesheets/./_960.scss */
+.container_12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 23, ./src/stylesheets/./_960.scss */
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+/* line 33, ./src/stylesheets/./_960.scss */
+.alpha {
+  margin-left: 0;
+}
+
+/* line 36, ./src/stylesheets/./_960.scss */
+.omega {
+  margin-right: 0;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 43, ./src/stylesheets/./_960.scss */
+.container_12 .grid_1 {
+  width: 60px;
+}
+/* line 45, ./src/stylesheets/./_960.scss */
+.container_12 .grid_2 {
+  width: 140px;
+}
+/* line 47, ./src/stylesheets/./_960.scss */
+.container_12 .grid_3 {
+  width: 220px;
+}
+/* line 49, ./src/stylesheets/./_960.scss */
+.container_12 .grid_4 {
+  width: 300px;
+}
+/* line 51, ./src/stylesheets/./_960.scss */
+.container_12 .grid_5 {
+  width: 380px;
+}
+/* line 53, ./src/stylesheets/./_960.scss */
+.container_12 .grid_6 {
+  width: 460px;
+}
+/* line 55, ./src/stylesheets/./_960.scss */
+.container_12 .grid_7 {
+  width: 540px;
+}
+/* line 57, ./src/stylesheets/./_960.scss */
+.container_12 .grid_8 {
+  width: 620px;
+}
+/* line 59, ./src/stylesheets/./_960.scss */
+.container_12 .grid_9 {
+  width: 700px;
+}
+/* line 61, ./src/stylesheets/./_960.scss */
+.container_12 .grid_10 {
+  width: 780px;
+}
+/* line 63, ./src/stylesheets/./_960.scss */
+.container_12 .grid_11 {
+  width: 860px;
+}
+/* line 65, ./src/stylesheets/./_960.scss */
+.container_12 .grid_12 {
+  width: 940px;
+}
+/* line 67, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_1 {
+  padding-left: 80px;
+}
+/* line 69, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_2 {
+  padding-left: 160px;
+}
+/* line 71, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_3 {
+  padding-left: 240px;
+}
+/* line 73, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_4 {
+  padding-left: 320px;
+}
+/* line 75, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_5 {
+  padding-left: 400px;
+}
+/* line 77, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_6 {
+  padding-left: 480px;
+}
+/* line 79, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_7 {
+  padding-left: 560px;
+}
+/* line 81, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_8 {
+  padding-left: 640px;
+}
+/* line 83, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_9 {
+  padding-left: 720px;
+}
+/* line 85, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_10 {
+  padding-left: 800px;
+}
+/* line 87, ./src/stylesheets/./_960.scss */
+.container_12 .prefix_11 {
+  padding-left: 880px;
+}
+/* line 89, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_1 {
+  padding-right: 80px;
+}
+/* line 91, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_2 {
+  padding-right: 160px;
+}
+/* line 93, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_3 {
+  padding-right: 240px;
+}
+/* line 95, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_4 {
+  padding-right: 320px;
+}
+/* line 97, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_5 {
+  padding-right: 400px;
+}
+/* line 99, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_6 {
+  padding-right: 480px;
+}
+/* line 101, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_7 {
+  padding-right: 560px;
+}
+/* line 103, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_8 {
+  padding-right: 640px;
+}
+/* line 105, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_9 {
+  padding-right: 720px;
+}
+/* line 107, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_10 {
+  padding-right: 800px;
+}
+/* line 109, ./src/stylesheets/./_960.scss */
+.container_12 .suffix_11 {
+  padding-right: 880px;
+}
+/* line 111, ./src/stylesheets/./_960.scss */
+.container_12 .push_1 {
+  left: 80px;
+}
+/* line 113, ./src/stylesheets/./_960.scss */
+.container_12 .push_2 {
+  left: 160px;
+}
+/* line 115, ./src/stylesheets/./_960.scss */
+.container_12 .push_3 {
+  left: 240px;
+}
+/* line 117, ./src/stylesheets/./_960.scss */
+.container_12 .push_4 {
+  left: 320px;
+}
+/* line 119, ./src/stylesheets/./_960.scss */
+.container_12 .push_5 {
+  left: 400px;
+}
+/* line 121, ./src/stylesheets/./_960.scss */
+.container_12 .push_6 {
+  left: 480px;
+}
+/* line 123, ./src/stylesheets/./_960.scss */
+.container_12 .push_7 {
+  left: 560px;
+}
+/* line 125, ./src/stylesheets/./_960.scss */
+.container_12 .push_8 {
+  left: 640px;
+}
+/* line 127, ./src/stylesheets/./_960.scss */
+.container_12 .push_9 {
+  left: 720px;
+}
+/* line 129, ./src/stylesheets/./_960.scss */
+.container_12 .push_10 {
+  left: 800px;
+}
+/* line 131, ./src/stylesheets/./_960.scss */
+.container_12 .push_11 {
+  left: 880px;
+}
+/* line 133, ./src/stylesheets/./_960.scss */
+.container_12 .pull_1 {
+  left: -80px;
+}
+/* line 135, ./src/stylesheets/./_960.scss */
+.container_12 .pull_2 {
+  left: -160px;
+}
+/* line 137, ./src/stylesheets/./_960.scss */
+.container_12 .pull_3 {
+  left: -240px;
+}
+/* line 139, ./src/stylesheets/./_960.scss */
+.container_12 .pull_4 {
+  left: -320px;
+}
+/* line 141, ./src/stylesheets/./_960.scss */
+.container_12 .pull_5 {
+  left: -400px;
+}
+/* line 143, ./src/stylesheets/./_960.scss */
+.container_12 .pull_6 {
+  left: -480px;
+}
+/* line 145, ./src/stylesheets/./_960.scss */
+.container_12 .pull_7 {
+  left: -560px;
+}
+/* line 147, ./src/stylesheets/./_960.scss */
+.container_12 .pull_8 {
+  left: -640px;
+}
+/* line 149, ./src/stylesheets/./_960.scss */
+.container_12 .pull_9 {
+  left: -720px;
+}
+/* line 151, ./src/stylesheets/./_960.scss */
+.container_12 .pull_10 {
+  left: -800px;
+}
+/* line 153, ./src/stylesheets/./_960.scss */
+.container_12 .pull_11 {
+  left: -880px;
+}
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+/* line 173, ./src/stylesheets/./_960.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+/* line 183, ./src/stylesheets/./_960.scss */
+.clearfix {
+  display: inline-block;
+}
+/* line 184, ./src/stylesheets/./_960.scss */
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 195, ./src/stylesheets/./_960.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 198, ./src/stylesheets/./_960.scss */
+.clearfix {
+  display: block;
+}
+
+/* line 4, ./src/stylesheets/./_header.scss */
+.header {
+  background: #333333;
+  padding: 10px 0px;
+  margin: 10px 0px 20px;
+  color: white;
+  font-size: 85%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/* line 12, ./src/stylesheets/./_header.scss */
+.header .logo {
+  float: left;
+}
+/* line 16, ./src/stylesheets/./_header.scss */
+.header .nav {
+  float: right;
+}
+/* line 20, ./src/stylesheets/./_header.scss */
+.header .nav a:link, .header .nav a:visited {
+  color: #bbbbbb;
+  text-decoration: none;
+  margin-left: 20px;
+}
+/* line 26, ./src/stylesheets/./_header.scss */
+.header .nav a:hover {
+  color: white;
+}
+
+/* line 4, ./src/stylesheets/./_footer.scss */
+.footer {
+  font-size: 85%;
+  text-align: center;
+  margin: 80px 0px 40px;
+}
+
+/* Boilerplate stuff */
+/* line 11 */
+body {
+  font-family: "Lucida Sans", Lucida, Helvetica, Tahoma, Arial, sans-serif;
+  font-size: 90%;
+}
+/* line 16 */
+body a:link, body a:visited {
+  color: blue;
+}
+/* line 20 */
+body a:hover {
+  color: #2299ff;
+}
+/* line 25 */
+body h1, body h2, body h3, body h4, body h5, body h6, body h7, body p {
+  margin-bottom: 1em;
+}

@@ -1,0 +1,28 @@
+@import "reset";
+@import "960";
+
+@import "globals";
+@import "functions";
+
+@import "header";
+@import "footer";
+
+/* Boilerplate stuff */
+body {
+  font-family: $font;
+  font-size: $font_size;
+  
+  a {
+    &:link, &:visited {
+      color: $link_color;
+    }
+
+    &:hover {
+      color: $link_hover_color;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6, h7, p {
+    margin-bottom: 1em;
+  }
+}
