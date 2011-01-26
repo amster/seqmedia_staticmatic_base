@@ -9,25 +9,25 @@ I've been using StaticMatic for a while and I keep having to do the same setup o
 What This Includes
 ------------------
 * Default layout with:
-** An overridable title
-** A relative link to the base.css stylesheet
-** Header, footer, JavaScripts list
+    * An overridable title
+    * A relative link to the base.css stylesheet
+    * Header, footer, JavaScripts list
 * A header with:
-** Space for a logo
-** Right-justified nav
+    * Space for a logo
+    * Right-justified nav
 * A footer with:
-** Copyright boilerplate
-** The current year
+    * Copyright boilerplate
+    * The current year
 * Default index page with:
-** Sidebar-style layout
-** A JavaScript reference to index.js
-** A page title override
+    * Sidebar-style layout
+    * A JavaScript reference to index.js
+    * A page title override
 * jQuery libs:
-** jQuery 1.4.4
-** jQuery UI 1.8.8
+    * jQuery 1.4.4
+    * jQuery UI 1.8.8
 * Sass SCSS-style files:
-** A converted reset.css and 12-column 960.gs CSS now included into the base stylesheet
-** Separate SCSS-style files for global colors, fonts, header style, etc.
+    * A converted reset.css and 12-column 960.gs CSS now included into the base stylesheet
+    * Separate SCSS-style files for global colors, fonts, header style, etc.
 
 More Info
 ---------
