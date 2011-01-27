@@ -8,6 +8,8 @@
 @import "footer";
 
 body {
+  background: $body_background;
+  color: $body_color;
   font-family: $font;
   font-size: $font_size;
   
